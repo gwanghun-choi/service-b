@@ -10,4 +10,9 @@ public class StatusController {
     public String status() {
         return "B OK";
     }
+
+    @GetMapping("/a/health")
+    public String health() {
+        return "200";
+    }
 }
