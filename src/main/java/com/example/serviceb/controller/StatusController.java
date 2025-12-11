@@ -11,7 +11,7 @@ public class StatusController {
         return "B OK";
     }
 
-    @GetMapping("/a/health")
+    @GetMapping("/b/health")
     public String health() {
         return "200";
     }
