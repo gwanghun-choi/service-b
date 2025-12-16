@@ -8,7 +8,7 @@ public class StatusController {
 
     @GetMapping("/b/status")
     public String status() {
-        return "B OK";
+        return "[v2] B OK";
     }
 
     @GetMapping("/b/health")
